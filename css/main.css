@@ -1,0 +1,64 @@
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+    color: var(--pink)!important; 
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+#header{
+    background: url(../images/bmw.jpg) top/cover no-repeat;
+}
+
+#header-ns{
+    background: url(/images/volwagen.jpg) 
+    center/cover no-repeat;
+}
+
+.container{
+    width: 20%;
+    margin-left: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    position: relative;
+    left: 25%;
+    transform: translateX(-50%);
+}   
+
+.container2{
+    width: 10%;
+    margin-right: 0;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    position: relative;
+    left: 80%;
+    top: 30%;
+    transform: translateX(-50%);
+}   
+
+.btn{
+    background-color:  rgba(255, 255, 255, 0.5);
+    color: black;
+    border-color: black;
+    text-align: center;
+    margin-left: 0;
+    position: relative;
+    left: 21%;
+}
